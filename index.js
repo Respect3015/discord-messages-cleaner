@@ -3,9 +3,9 @@ const chalk = require('chalk');
 
 setInterval(async function() {
 
-    let authToken = "ODUxNDcwOTYxNDI5ODM5ODcy.YQpIhQ.rdb6HnS8qBCSpxO6LbapVTa_mTI"
+    let authToken = ""
 
-    let channel = '851850624643498024'
+    let channel = ""
 
     let messages = await fetch(`https://discord.com/api/v9/channels/${channel}/messages`, {
         method: 'GET',
